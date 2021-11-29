@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Online Course Enrollment</title>
+        <link rel="stylesheet" href="styles/course.css">
+        <script src="script/course.js"></script>
+    </head>
+    <body>
+        <div id="mainDiv">
+           
+            <br><button type="button" onclick="newUser()">NEW USER</button>
+            
+            <button type="button" onclick="logIn()">Log In</button>
+        </div>
+        <div id="newUser">
+            
+            <label><input type="text"  id="name"placeholder="Name">Name</label>
+            
+            <label><input  id="age"type="number" placeholder="Age">Age</label>
+            
+            <label ><input id="phoneNo" type="number" placeholder="Phone Number">Phone Number</label>
+           
+            <button type="button" onclick="add()">ADD USER</button>
+            <button type="button" onclick="GoTomainMenu()">Go To Main Menu</button>
+        </div>
+        <div id="login">
+           
+        
+            <label ><input type="number" id="logid" placeholder="LogIn Id"></label>
+            
+            <button type="button" onclick="enter()">Enter</button>
+        </div>
+        <div id="enterDiv">
+          
+            <br>
+            <br><button type="button" onclick="availableCourse()">Available Course</button>
+           
+            <button type="button" onclick="EnrolledHistory()">Enrolled History</button>
+        </div>
+        <div id="availableCourse">
+            
+            <select id="course">
+                <option>C#</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>TypeScript</option>
+                <option>MySql</option>
+            </select>
+            <label ><input type="number" id="timeToComplete" placeholder="No Of Days">Required days to complete</label>
+            <label ><input id="id2" type="number" placeholder="userid">User Id</label>
+            <button type="button" onclick="enroll()">Enroll</button>
+        </div>
+        <div id="enrolledCourse">
+            <h2>Enrolled History</h2>
+            <button type="button" onclick="showHistory()">Show History</button>
+        </div>
+    </body>
+</html>

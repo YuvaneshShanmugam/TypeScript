@@ -1,0 +1,22 @@
+#mainDiv{
+    
+    display: block;
+}
+#newUser{
+    visibility: hidden;
+}
+#login{
+    visibility: hidden;
+}
+#availableCourse{
+    visibility: hidden;
+}
+#enrolledCourse{
+    visibility: hidden;
+}
+body{
+    background-color: khaki;
+}
+#enterDiv{
+    visibility: hidden;
+}
